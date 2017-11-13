@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context="com.maydana.roman.hoteleslapaz.DetalleActivity">
+    <ImageView
+        android:id="@+id/imagen_detalle"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/hotel_presidente" />
+
+    <TextView
+        android:id="@+id/nombre_detalle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dime_8dp"
+        android:text="@string/hotel_presidente"
+        android:textSize="@dimen/dimen_24sp"
+        android:textStyle="bold" />
+
+    <RatingBar
+        android:id="@+id/ratingBar_detalle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dime_8dp"
+        android:numStars="5"
+        android:stepSize="1.0" />
+
+    <TextView
+        android:id="@+id/direccion_detalle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_location_on_black_24dp"
+        android:gravity="center_vertical"
+        android:onClick="direccion"
+        android:text="@string/direccion"
+        android:textSize="@dimen/dimen_14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/telefono_detalle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dime_8dp"
+        android:drawableLeft="@drawable/ic_call_black_24dp"
+        android:gravity="center_vertical"
+        android:onClick="telefono"
+        android:text="@string/telefono"
+        android:textSize="@dimen/dimen_14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dime_8dp"
+        android:gravity="center_horizontal"
+        android:text="@string/detalle_del_hotel"
+        android:textSize="@dimen/dimen_20sp"
+        android:textStyle="bold" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/detalleHotel_detalle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dime_8dp"
+        android:text="@string/detalleHotelPresidente"
+        android:textStyle="italic" />
+    </ScrollView>
+</LinearLayout>
