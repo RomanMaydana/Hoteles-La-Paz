@@ -1,4 +1,4 @@
-# Hoteles-La-Paz
+# Hoteles La Paz
 
 Este repositorio es de una aplicacion para gui de Hoteles de la ciudad de La paz, que tiene las siguientes funcionalidades:
 
