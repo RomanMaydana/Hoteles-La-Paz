@@ -11,6 +11,6 @@ Este repositorio es de una aplicacion para gui de Hoteles de la ciudad de La paz
 
 <div align="center">
     <center>
-        <img src="/app/src/main/res/drawable/gif_presentacion" width="300">
+        <img src="/app/src/main/res/drawable/gif_presentacion.gif" width="300">
     </center>
 </div>
